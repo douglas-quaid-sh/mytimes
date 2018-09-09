@@ -7,4 +7,30 @@ header {
   display: flex;
   align-items: center;
   border:1px solid grey;
+  width: 100%;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  color: aquamarine;
+  padding:10px 40px;
+}
+
+.logo img {
+  margin-right: 12px;
+}
+
+nav {
+  padding-right: 40px;
+}
+
+nav a {
+  padding: 20px 10px;
+  text-decoration: none;
+  color: black;
 }
