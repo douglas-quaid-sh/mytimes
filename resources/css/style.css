@@ -45,6 +45,7 @@ nav a {
   display: flex;
   flex-direction: column;
   border: 1px solid black;
+  margin: 32px 16px;
 }
 
 .column.large {
@@ -59,8 +60,35 @@ nav a {
   width: 240px;
 }
 
-.stories {
+.multi-article {
  display: flex;
+}
+
+.article {
+  padding-bottom: 25px;
+}
+.article h2 {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.article h2.image-tab {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.lead-story h2.image-tab  {
+  font-size: 40px;
+}
+.image-tab {
+    height: 300px;
+}
+
+.main-image {
+  background-image: url(../images/img-story-main.png);
 }
 
 .camera-image {
